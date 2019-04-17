@@ -16,8 +16,8 @@
 		2838335517A1C02900C0141D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2838335417A1C02900C0141D /* Default-568h@2x.png */; };
 		2838335817A1C02900C0141D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838335717A1C02900C0141D /* ViewController.m */; };
 		2838335B17A1C02900C0141D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838335917A1C02900C0141D /* ViewController.xib */; };
-		69DE1C2C1E61765000CF816C /* DarklyEventSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DE1C251E61765000CF816C /* DarklyEventSource.framework */; };
-		69DE1C2D1E61765000CF816C /* DarklyEventSource.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69DE1C251E61765000CF816C /* DarklyEventSource.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		69DE1C2C1E61765000CF816C /* DarklyEventSource-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DE1C251E61765000CF816C /* DarklyEventSource-iOS.framework */; };
+		69DE1C2D1E61765000CF816C /* DarklyEventSource-iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69DE1C251E61765000CF816C /* DarklyEventSource-iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		78D92E9E220BB50400585033 /* LDEventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 832C787B1F291AB300E334A2 /* LDEventSource.m */; };
 		78D92E9F220BB50400585033 /* NSString+LDEventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 83620B9620C0A89100F1F28E /* NSString+LDEventSource.m */; };
 		78D92EA0220BB50400585033 /* LDEventParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 83620B8E20BEE51600F1F28E /* LDEventParser.m */; };
@@ -60,7 +60,7 @@
 		8347BB0721EEB45400E56BCD /* putEvent_badRetry.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8347BB0621EEB45400E56BCD /* putEvent_badRetry.txt */; };
 		8347BB0A21EF7F2700E56BCD /* NSString+LDEvent+Testable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8347BB0921EF7F2700E56BCD /* NSString+LDEvent+Testable.m */; };
 		835B123C20E6557B009C2ACB /* LDEventParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 835B123B20E6557B009C2ACB /* LDEventParserTest.m */; };
-		835B123F20E65DF8009C2ACB /* DarklyEventSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DE1C251E61765000CF816C /* DarklyEventSource.framework */; };
+		835B123F20E65DF8009C2ACB /* DarklyEventSource-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DE1C251E61765000CF816C /* DarklyEventSource-iOS.framework */; };
 		835B124120E666C2009C2ACB /* LDEventSourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 835B124020E666C2009C2ACB /* LDEventSourceTest.m */; };
 		835B124420E66837009C2ACB /* largePutEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 835B124320E66837009C2ACB /* largePutEvent.txt */; };
 		835B124820E668EE009C2ACB /* NSString+Testable.m in Sources */ = {isa = PBXBuildFile; fileRef = 835B124720E668EE009C2ACB /* NSString+Testable.m */; };
@@ -102,7 +102,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				69DE1C2D1E61765000CF816C /* DarklyEventSource.framework in Embed Frameworks */,
+				69DE1C2D1E61765000CF816C /* DarklyEventSource-iOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,10 +125,10 @@
 		2838335617A1C02900C0141D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2838335717A1C02900C0141D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2838335A17A1C02900C0141D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		69DE1C251E61765000CF816C /* DarklyEventSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarklyEventSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78D92EB0220BB50400585033 /* DarklyEventSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarklyEventSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78D92EC6220BB51700585033 /* DarklyEventSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarklyEventSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78D92EDC220BB51F00585033 /* DarklyEventSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarklyEventSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DE1C251E61765000CF816C /* DarklyEventSource-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "DarklyEventSource-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D92EB0220BB50400585033 /* DarklyEventSource-watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "DarklyEventSource-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D92EC6220BB51700585033 /* DarklyEventSource-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "DarklyEventSource-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D92EDC220BB51F00585033 /* DarklyEventSource-macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "DarklyEventSource-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832C78791F291AA700E334A2 /* LDEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDEventSource.h; path = LDEventSource/LDEventSource.h; sourceTree = SOURCE_ROOT; };
 		832C787B1F291AB300E334A2 /* LDEventSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDEventSource.m; path = LDEventSource/LDEventSource.m; sourceTree = SOURCE_ROOT; };
 		832C787D1F291AC000E334A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LDEventSource/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -164,7 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69DE1C2C1E61765000CF816C /* DarklyEventSource.framework in Frameworks */,
+				69DE1C2C1E61765000CF816C /* DarklyEventSource-iOS.framework in Frameworks */,
 				2838334117A1C02900C0141D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,7 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835B123F20E65DF8009C2ACB /* DarklyEventSource.framework in Frameworks */,
+				835B123F20E65DF8009C2ACB /* DarklyEventSource-iOS.framework in Frameworks */,
 				EDC66098619F9E9C9907365A /* Pods_DarklyEventSourceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,11 +225,11 @@
 			isa = PBXGroup;
 			children = (
 				2838333E17A1C02900C0141D /* EventViewer.app */,
-				69DE1C251E61765000CF816C /* DarklyEventSource.framework */,
+				69DE1C251E61765000CF816C /* DarklyEventSource-iOS.framework */,
 				835B123320E5A319009C2ACB /* DarklyEventSourceTests.xctest */,
-				78D92EB0220BB50400585033 /* DarklyEventSource.framework */,
-				78D92EC6220BB51700585033 /* DarklyEventSource.framework */,
-				78D92EDC220BB51F00585033 /* DarklyEventSource.framework */,
+				78D92EB0220BB50400585033 /* DarklyEventSource-watchOS.framework */,
+				78D92EC6220BB51700585033 /* DarklyEventSource-tvOS.framework */,
+				78D92EDC220BB51F00585033 /* DarklyEventSource-macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -438,7 +438,7 @@
 			);
 			name = "DarklyEventSource-iOS";
 			productName = "EventSource-iOS";
-			productReference = 69DE1C251E61765000CF816C /* DarklyEventSource.framework */;
+			productReference = 69DE1C251E61765000CF816C /* DarklyEventSource-iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		78D92E9C220BB50400585033 /* DarklyEventSource-watchOS */ = {
@@ -456,7 +456,7 @@
 			);
 			name = "DarklyEventSource-watchOS";
 			productName = "EventSource-iOS";
-			productReference = 78D92EB0220BB50400585033 /* DarklyEventSource.framework */;
+			productReference = 78D92EB0220BB50400585033 /* DarklyEventSource-watchOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		78D92EB2220BB51700585033 /* DarklyEventSource-tvOS */ = {
@@ -474,7 +474,7 @@
 			);
 			name = "DarklyEventSource-tvOS";
 			productName = "EventSource-iOS";
-			productReference = 78D92EC6220BB51700585033 /* DarklyEventSource.framework */;
+			productReference = 78D92EC6220BB51700585033 /* DarklyEventSource-tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		78D92EC8220BB51F00585033 /* DarklyEventSource-macOS */ = {
@@ -492,7 +492,7 @@
 			);
 			name = "DarklyEventSource-macOS";
 			productName = "EventSource-iOS";
-			productReference = 78D92EDC220BB51F00585033 /* DarklyEventSource.framework */;
+			productReference = 78D92EDC220BB51F00585033 /* DarklyEventSource-macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		835B123220E5A319009C2ACB /* DarklyEventSourceTests */ = {
@@ -540,6 +540,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2838332017A1BFFD00C0141D;
@@ -920,7 +921,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.EventSource;
-				PRODUCT_NAME = DarklyEventSource;
+				PRODUCT_NAME = "DarklyEventSource-iOS";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -957,7 +958,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.EventSource;
-				PRODUCT_NAME = DarklyEventSource;
+				PRODUCT_NAME = "DarklyEventSource-iOS";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -992,7 +993,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.EventSource;
-				PRODUCT_NAME = DarklyEventSource;
+				PRODUCT_NAME = "DarklyEventSource-watchOS";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
@@ -1029,7 +1030,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.EventSource;
-				PRODUCT_NAME = DarklyEventSource;
+				PRODUCT_NAME = "DarklyEventSource-watchOS";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
@@ -1064,7 +1065,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.EventSource;
-				PRODUCT_NAME = DarklyEventSource;
+				PRODUCT_NAME = "DarklyEventSource-tvOS";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -1101,7 +1102,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.EventSource;
-				PRODUCT_NAME = DarklyEventSource;
+				PRODUCT_NAME = "DarklyEventSource-tvOS";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -1136,7 +1137,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.EventSource;
-				PRODUCT_NAME = DarklyEventSource;
+				PRODUCT_NAME = "DarklyEventSource-macOS";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
@@ -1173,7 +1174,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.EventSource;
-				PRODUCT_NAME = DarklyEventSource;
+				PRODUCT_NAME = "DarklyEventSource-macOS";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
