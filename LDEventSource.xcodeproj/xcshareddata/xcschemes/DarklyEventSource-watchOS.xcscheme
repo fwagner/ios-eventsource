@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "78D92E9C220BB50400585033"
-               BuildableName = "DarklyEventSource.framework"
+               BuildableName = "DarklyEventSource-watchOS.framework"
                BlueprintName = "DarklyEventSource-watchOS"
                ReferencedContainer = "container:LDEventSource.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "78D92E9C220BB50400585033"
-            BuildableName = "DarklyEventSource.framework"
+            BuildableName = "DarklyEventSource-watchOS.framework"
             BlueprintName = "DarklyEventSource-watchOS"
             ReferencedContainer = "container:LDEventSource.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "78D92E9C220BB50400585033"
-            BuildableName = "DarklyEventSource.framework"
+            BuildableName = "DarklyEventSource-watchOS.framework"
             BlueprintName = "DarklyEventSource-watchOS"
             ReferencedContainer = "container:LDEventSource.xcodeproj">
          </BuildableReference>
